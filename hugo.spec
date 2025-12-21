@@ -12,6 +12,11 @@ Patch1:		hugo-2.12-x86_64fix.patch
 Patch2:		hugo-2.12-x86_64-fixes-backport.patch
 Patch3:		hugo-2.12-sfmt.patch
 Patch4:		hugo-2.12-compile.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(SDL_mixer)
 BuildRequires:	pkgconfig(SDL_net)
